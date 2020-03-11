@@ -1,0 +1,27 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="instellingen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="instelling" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="SOORT"/>
+                            <xs:element type="xs:string" name="PROVINCIE"/>
+                            <xs:element type="xs:string" name="BRI"/>
+                            <xs:element type="xs:string" name="INSTELLINGSNAAM"/>
+                            <xs:element type="xs:string" name="STRAATNAAM"/>
+                            <xs:element type="xs:string" name="HUISNUMMER_TOEVOEGING"/>
+                            <xs:element type="xs:string" name="POSTCODE"/>
+                            <xs:element type="xs:string" name="PLAATSNAAM"/>
+                            <xs:element type="xs:short" name="GEMEENTENUMMER"/>
+                            <xs:element type="xs:string" name="GEMEENTENAAM"/>
+                            <xs:element type="xs:string" name="DENOMINATIE"/>
+                            <xs:element type="xs:string" name="TELEFOONNUMMER"/>
+                            <xs:element type="xs:string" name="INTERNETADRES"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
