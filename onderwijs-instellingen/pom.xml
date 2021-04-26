@@ -17,7 +17,7 @@
 
   <properties>
     <version.apache.commons-collections>3.2.2</version.apache.commons-collections>
-    <version.apache.commons-io>2.4</version.apache.commons-io>
+    <version.apache.commons-io>2.7</version.apache.commons-io>
     <version.apache.commons-lang>3.7</version.apache.commons-lang>
     <version.apache-httpcomponents>4.5.5</version.apache-httpcomponents>
     <version.arquillian>1.1.15.Final</version.arquillian>
