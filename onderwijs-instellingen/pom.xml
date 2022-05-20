@@ -24,7 +24,7 @@
     <version.arquillian-tomee-embedded>7.0.4</version.arquillian-tomee-embedded>
     <version.fasterxml.jackson>2.9.5</version.fasterxml.jackson>
     <version.github.logginginterceptor>3.2.2</version.github.logginginterceptor>
-    <version.gson>2.8.5</version.gson>
+    <version.gson>2.8.9</version.gson>
     <version.guava>25.1-jre</version.guava>
     <version.hamcrest>1.3</version.hamcrest>
     <version.httpmime>4.5.5</version.httpmime>
